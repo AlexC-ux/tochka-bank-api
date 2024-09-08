@@ -1,6 +1,8 @@
 import { OpenAPIClientAxios } from 'openapi-client-axios';
 import { Client } from './types/openapi.js';
 
+import * as OpenApiClientType from './types/openapi.js';
+
 const api = new OpenAPIClientAxios({ definition: 'https://example.com/api/openapi.json' });
 api.initSync();
 
@@ -10,3 +12,9 @@ export default class TochkaBankApi {
     return client;
   }
 }
+
+export type ClientType = {
+  Client: OpenApiClientType.Client;
+  OperationMethods: OpenApiClientType.OperationMethods;
+  PathsDictionary: OpenApiClientType.PathsDictionary;
+};

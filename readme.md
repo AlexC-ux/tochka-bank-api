@@ -9,3 +9,5 @@ import TochkaBankApi from 'tochka-bank-api';
 const apiInstance = new TochkaBankApi();
 const client = await apiInstance.getClient();
 ```
+
+You can import {ClientType} from lib to get additional types.
