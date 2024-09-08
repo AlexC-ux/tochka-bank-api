@@ -1,6 +1,6 @@
 {
   "name": "tochka-bank-api",
-  "version": "1.0.12",
+  "version": "1.0.20",
   "main": "build/index.js",
   "type": "module",
   "scripts": {

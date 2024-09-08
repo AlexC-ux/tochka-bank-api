@@ -1,5 +1,5 @@
 import { OpenAPIClientAxios } from 'openapi-client-axios';
-import { Client } from './types/openapi.js';
+import { Client } from './types/index.js';
 
 import * as OpenApiClientType from './types/openapi.js';
 
