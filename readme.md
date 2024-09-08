@@ -1,6 +1,6 @@
 # Tochka-bank-api
 
-Api wrapper for **Tochka Bank**
+Api wrapper for **Tochka Bank**. Based on Axios.
 
 ## Example
 
