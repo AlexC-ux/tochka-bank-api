@@ -1,0 +1,46 @@
+{
+  "name": "tochka-bank-api",
+  "version": "1.0.12",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build:types": "npx openapicmd typegen ./src/swagger.json > src/types/openapi.ts",
+    "build": "npm run build:types &&tsc",
+    "dev": "node build/index.js"
+  },
+  "author": "AlexC-ux",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "openapi-client-axios": "^7.5.5",
+    "openapicmd": "^2.4.0",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "types": "src/types",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "keywords": [
+    "tochka-bank-api",
+    "tochka-bank",
+    "tochka-bank-api-client",
+    "tochka-bank-api-client-typescript",
+    "tochka-bank-api-typescript",
+    "tochka-bank-api-typescript-client",
+    "tochka-bank-api-typescript-client-library",
+    "tochka-bank-api-typescript-client-api",
+    "tochka-bank-api-typescript-client-sdk",
+    "tochka-bank-api-typescript-client-openapi",
+    "tochka-bank-api-typescript-client-openapi-client",
+    "tochka-bank-api-typescript-client-openapi-client-axios",
+    "tochka-bank-api-typescript-client-axios",
+    "tochka-bank-api-typescript-client-axios-openapi",
+    "tochka-bank-api-typescript-client-axios-openapi-client",
+    "tochka-bank-api-typescript-client-axios-openapi-client-axios",
+    "tochka-bank-api-typescript-client-axios-openapi-client-axios-openapi",
+    "tochka-bank-api-typescript-client-axios-openapi-client-axios-openapi-client",
+    "tochka-bank-api-typescript-client-axios-openapi-client-axios-openapi-client-axios"
+  ]
+}
